@@ -1,0 +1,33 @@
+{
+  "name": "browserify-extendscript",
+  "version": "0.1.0",
+  "description": "Enables Browsefify to work with Adobe ExtendScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "browserify-plugin",
+    "extendscript",
+    "adobe",
+    "illustrator",
+    "indesign",
+    "photoshop"
+  ],
+  "author": "Daniel Moore <polaris@northhorizon.net>",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "insert-module-globals": "~5.0.1",
+    "browser-pack": "~2.0.1"
+  },
+  "peerDependencies": {
+    "browserify": "3.x"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "sinon": "~1.9.1",
+    "sinon-chai": "~2.5.0"
+  }
+}
