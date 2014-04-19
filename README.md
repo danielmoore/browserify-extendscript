@@ -1,4 +1,4 @@
-# ExtendScript Plugin for Browserify
+# ExtendScript Plugin for Browserify [![build status](https://secure.travis-ci.org/danielmoore/browserify-extendscript.png)](http://next.travis-ci.org/danielmoore/browserify-extendscript)
 
 This plugin for Browserify allows you to target Adobe ExtendScript, which is essentially JavaScript run by Illustrator, InDesign, or Photoshop. ExtendScript has a non-JavaScript compliant method of loading modules and is not particularly friendly to npm, so Browserify is an easy way to bring CommonJS to that ecosystem.
 
